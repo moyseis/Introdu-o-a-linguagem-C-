@@ -43,17 +43,21 @@ LETRA C)
 #include <stdio.h>
  #include <stdlib.h>           
 int main() {
+ int num1, num2;
       printf("escreva o primeiro numero: ");
       scantf("%d" &num1);
       printf("escreva o segundo numero: ");
       scantf("%d" &num2);
+ return 0;
 }
 LETRA E)
 #include <stdio.h>
  #include <stdlib.h>           
   int main(){
+ int farenheit;
     printf("informe a temperatura em farenheit ");
     scantf("%d" &farenheit);
+ return 0;
   }
 
 LETRA D)
@@ -70,8 +74,10 @@ LETRA F)
 #include <stdio.h>
  #include <stdlib.h>           
   int main(){
+ int raio, altura;
     printf("Informe o valor do raio: ");
     scantf("%d" &raio);
     printf("Informe o valor da altura: ");
     scantf("%d" &altura);
+ return 0;
   }
