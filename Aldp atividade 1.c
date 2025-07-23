@@ -60,8 +60,10 @@ LETRA D)
 #include <stdio.h>
  #include <stdlib.h>           
   int main(){
+      int celsius;
     printf("Informe a temperatura em celsius: ");
-    leia("%d" &celsius);
+    scanf("%d", &celsius);
+    return 0;
   }
 
 LETRA F)
