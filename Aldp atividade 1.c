@@ -45,9 +45,9 @@ LETRA C)
 int main() {
  int num1, num2;
       printf("escreva o primeiro numero: ");
-      scantf("%d" &num1);
+      scanf("%d", &num1);
       printf("escreva o segundo numero: ");
-      scantf("%d" &num2);
+      scanf("%d", &num2);
  return 0;
 }
 LETRA E)
@@ -56,7 +56,7 @@ LETRA E)
   int main(){
  int farenheit;
     printf("informe a temperatura em farenheit ");
-    scantf("%d" &farenheit);
+    scanf("%d", &farenheit);
  return 0;
   }
 
@@ -76,8 +76,8 @@ LETRA F)
   int main(){
  int raio, altura;
     printf("Informe o valor do raio: ");
-    scantf("%d" &raio);
+    scanf("%d", &raio);
     printf("Informe o valor da altura: ");
-    scantf("%d" &altura);
+    scanf("%d", &altura);
  return 0;
   }
